@@ -2,10 +2,10 @@
   author: "",
   location: "",
   email: "",
-  github: "",
+  //github: "",
   linkedin: "",
   phone: "",
-  personal-site: "",
+  //personal-site: "",
   accent-color: "#000000",
   body,
 ) = {
@@ -74,11 +74,11 @@
         // Email
         link("mailto:" + email)[#email],
         // Github
-        link("https://" + github)[#github],
+        //link("https://" + github)[#github],
         // Linkedin
         link("https://" + linkedin)[#linkedin],
         // Personal Site
-        link("https://" + personal-site)[#personal-site],
+        //link("https://" + personal-site)[#personal-site],
       ).join("  |  ")
     ],
   )

@@ -4,19 +4,19 @@
 #let name = "Stephen Xu"
 #let location = "San Diego, CA"
 #let email = "stxu@hmc.edu"
-#let github = "github.com/stuxf"
+//#let github = "github.com/stuxf"
 #let linkedin = "linkedin.com/in/stuxf"
 #let phone = "+1 (xxx) xxx-xxxx"
-#let personal-site = "stuxf.dev"
+//#let personal-site = "stuxf.dev"
 
 #show: resume.with(
   author: name,
   location: location,
   email: email,
-  github: github,
+  //github: github,
   linkedin: linkedin,
   phone: phone,
-  personal-site: personal-site,
+  //personal-site: personal-site,
   // Accent color is optional. Feel free to remove the next line if you want your resume to be in black and white
   accent-color: "#26428b",
 )
